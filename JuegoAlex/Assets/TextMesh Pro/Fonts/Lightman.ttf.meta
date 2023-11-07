@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 204d8b7094cb4f548ab7c004a4aa5fbe
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Lightman
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2992e57e2cec46d4092f3ff6f8f42f7e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

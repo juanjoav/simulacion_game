@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6d80e5f1d86a247499ec5d2f9aeb5434
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BulletPrefab: {fileID: 7392768537980516523, guid: a5b3cccf34d9c5e44a31c2bf60be1696, type: 3}
+  - GruntPrefab: {fileID: 5781531555337657708, guid: ab88f3116b903cb4f8413ec163c6eb1e, type: 3}
+  - barra: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
