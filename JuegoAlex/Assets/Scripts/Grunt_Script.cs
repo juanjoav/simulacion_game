@@ -38,14 +38,14 @@ public class Grunt_Script : MonoBehaviour
         float variable = num;
       
         if(variable < 50 && Time.time > LastMove + 1.2f){
-            float direction2 = -30f;
+            float direction2 = -80f;
             Vector3 movement = new Vector3(direction2 * movementSpeed * Time.deltaTime, 0f, 0f);
             transform.Translate(movement);
             LastMove = Time.time;
         }
         else if(variable >= 50 && Time.time > LastMove + 1.2f)
         {
-            float direction2 = 30f;
+            float direction2 = 80f;
 
             Vector3 movement = new Vector3(direction2 * movementSpeed * Time.deltaTime, 0f, 0f);
 

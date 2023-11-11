@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3344743682379183761}
   - component: {fileID: 5758270143787339235}
   m_Layer: 0
-  m_Name: Water
+  m_Name: Huevo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924628961250491560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.75, y: -6.13, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 10.4968, y: -5.6614, z: 0}
+  m_LocalScale: {x: 0.19939877, y: 0.21433604, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1281493429, guid: 89b292a0561692343b50ee68f723c01f, type: 3}
+  m_Sprite: {fileID: 687142220, guid: 8889322d02b6a134fad4d82a8b509cd5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -113,8 +113,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.16, y: 0.45}
+  m_Offset: {x: -0.010631756, y: 0.041131545}
+  m_Size: {x: 1.967274, y: 2.537194}
   m_Direction: 0
 --- !u!50 &5758270143787339235
 Rigidbody2D:

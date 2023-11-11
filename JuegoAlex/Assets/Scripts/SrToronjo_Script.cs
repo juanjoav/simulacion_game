@@ -38,8 +38,8 @@ public class SrToronjo_Script : MonoBehaviour
                 Under(direction);
             }
         }
-        if (direction.x >= 0.0f) transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        if (direction.x >= 0.0f) transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
+        else transform.localScale = new Vector3(0.5f, 0.5f, 1.0f);
     }
 
     void Shoot() {

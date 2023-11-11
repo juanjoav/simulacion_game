@@ -42,9 +42,10 @@ public class Alex_movement : MonoBehaviour
     void Update()
     {
         Horizontal = Input.GetAxisRaw("Horizontal");
-        if(Horizontal<0.0f ) transform.localScale = new Vector3(-0.2879f,0.2879f,1.0f);
-        else if(Horizontal > 0.0f) transform.localScale = new Vector3(0.2879f,0.2879f,1.0f);
+         if(Horizontal<0.0f ) transform.localScale = new Vector3(-0.2879203f,0.2879203f,1.0f);
+        else if(Horizontal > 0.0f) transform.localScale = new Vector3(0.2879203f,0.2879203f,1.0f);
         Animator.SetBool("Running", Horizontal != 0.0f );
+        
 
         if(Input.GetKey(KeyCode.Space) && Time.time > LastShoot + 0.5f)
         {
@@ -58,10 +59,18 @@ public class Alex_movement : MonoBehaviour
     private void Shoot(){
 
         Vector3 direction;
-        if(transform.localScale.x > 1.0f) direction = Vector2.right;
+        if(transform.localScale.x > 0.2870f)direction = Vector2.right;
         else direction = Vector2.left;
-        GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.5f, Quaternion.identity);
+        GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.65f, Quaternion.identity);
         bullet.GetComponent<Bullet_Script>().setDirection(direction);
+        Animator.SetBool("Shot" , true);
+        StartCoroutine(StopShotAnimation());
+    }
+
+    private IEnumerator StopShotAnimation()
+    {
+    yield return new WaitForSeconds(0.5f);
+    Animator.SetBool("Shot", false);
     }
     
      private void FixedUpdate()

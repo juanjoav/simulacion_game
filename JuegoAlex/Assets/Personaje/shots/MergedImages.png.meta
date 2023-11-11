@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d52bacbcee505ea42b62160cb01b0199
+guid: 8889322d02b6a134fad4d82a8b509cd5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (3)_0
+      name: MergedImages_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 1
-        width: 19
-        height: 19
+        x: 88
+        y: 104
+        width: 316
+        height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 771a6a68b9207e544b41398d1a3f5cee
-      internalID: 792184245
+      spriteID: 2bab5168abc598e499cae522f0576cd8
+      internalID: 87993818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MergedImages_1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 106
+        width: 224
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd4536b0b6442d458b0f21a7297dcf2
+      internalID: 687142220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MergedImages_2
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 72
+        width: 461
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce31a76ef73e4448bf07ac05db8c9e
+      internalID: -669309714
       vertices: []
       indices: 
       edges: []
@@ -136,7 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      New Piskel (3)_0: 792184245
+      MergedImages_0: 87993818
+      MergedImages_1: 687142220
+      MergedImages_2: -669309714
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

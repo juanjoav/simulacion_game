@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8279bc75b69b0d478ed0f2d769773e5
+guid: 0d3e29a65b39bc7439518fc3c5fb3a73
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: grunt_run-1.png_0
+      name: shot_0
       rect:
         serializedVersion: 2
-        x: 158
-        y: 0
-        width: 614
-        height: 578
+        x: 91
+        y: 33
+        width: 370
+        height: 473
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f98e566cd84cb434ba4910399575b5df
-      internalID: -1782317424
+      spriteID: 8b687b6012eb12c4db014f50e4fd8092
+      internalID: 973393526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grunt_run-1.png_1
+      name: shot_1
       rect:
         serializedVersion: 2
-        x: 987
-        y: 0
-        width: 614
-        height: 578
+        x: 675
+        y: 36
+        width: 333
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dcf154ef9879ca4f98f8b68a0fb6864
-      internalID: 1750294492
+      spriteID: b0c3c99b43ecf9b499ba7255d62e4275
+      internalID: 676801475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grunt_run-1.png_2
+      name: shot_2
       rect:
         serializedVersion: 2
-        x: 1820
-        y: 0
-        width: 614
-        height: 578
+        x: 1235
+        y: 36
+        width: 326
+        height: 468
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3310bbcd74d9ac34e8844eb34e8881ba
-      internalID: -940504350
+      spriteID: de9028756e31c254a8fd3558a8417278
+      internalID: 979032735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grunt_run-1.png_3
+      name: shot_3
       rect:
         serializedVersion: 2
-        x: 2653
-        y: 0
-        width: 614
-        height: 578
+        x: 1817
+        y: 34
+        width: 331
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,134 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6421b894df7124f43b7ccfb59db7bc1c
-      internalID: -1117273523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_4
-      rect:
-        serializedVersion: 2
-        x: 3486
-        y: 28
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9116a0cec47e2754084587d55d241bdd
-      internalID: -625724124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_5
-      rect:
-        serializedVersion: 2
-        x: 4318
-        y: 0
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c00d6b489ad5a8c4e80faa271efbebe0
-      internalID: -873404718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_6
-      rect:
-        serializedVersion: 2
-        x: 5147
-        y: 0
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd36d2bfdb2846b4e9a19da614d8b674
-      internalID: -1070825818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_7
-      rect:
-        serializedVersion: 2
-        x: 5980
-        y: 0
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8039305f819a53e44b7c050e7d5fc03d
-      internalID: -827057181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_8
-      rect:
-        serializedVersion: 2
-        x: 6813
-        y: 0
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4286a78d81ba60478f10fe5e79ae20e
-      internalID: 695501222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grunt_run-1.png_9
-      rect:
-        serializedVersion: 2
-        x: 7646
-        y: 28
-        width: 614
-        height: 578
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf2d29701e43de549acb02773ce912f3
-      internalID: 1790806819
+      spriteID: 784969a24e9d0d840a3a7f3b24e81534
+      internalID: -1393717067
       vertices: []
       indices: 
       edges: []
@@ -325,16 +199,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      grunt_run-1.png_0: -1782317424
-      grunt_run-1.png_1: 1750294492
-      grunt_run-1.png_2: -940504350
-      grunt_run-1.png_3: -1117273523
-      grunt_run-1.png_4: -625724124
-      grunt_run-1.png_5: -873404718
-      grunt_run-1.png_6: -1070825818
-      grunt_run-1.png_7: -827057181
-      grunt_run-1.png_8: 695501222
-      grunt_run-1.png_9: 1790806819
+      shot_0: 973393526
+      shot_1: 676801475
+      shot_2: 979032735
+      shot_3: -1393717067
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
