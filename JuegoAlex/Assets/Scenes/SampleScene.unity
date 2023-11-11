@@ -9240,7 +9240,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 885730512, guid: d64fac6802d67a04094850c066d461ab, type: 3}
+  m_Sprite: {fileID: 151827256, guid: ef429dee03a22b34894a71df4fac8c04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9259,9 +9259,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293512431}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.05, y: -2.43, z: 0}
-  m_LocalScale: {x: 6.5, y: 6.5, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 7.2278, y: -2.4495, z: 0}
+  m_LocalScale: {x: 0.28792033, y: 0.30509162, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -9301,7 +9301,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.026708687, y: -0.0059333215}
-  m_Size: {x: 0.1155126, y: 0.1914605}
+  m_Size: {x: 3, y: 5}
   m_Direction: 0
 --- !u!114 &293512436
 MonoBehaviour:
@@ -10319,6 +10319,7 @@ GameObject:
   - component: {fileID: 1046610484}
   - component: {fileID: 1046610483}
   - component: {fileID: 1046610482}
+  - component: {fileID: 1046610485}
   m_Layer: 0
   m_Name: SrToronjo_0
   m_TagString: Untagged
@@ -10384,7 +10385,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1957759729, guid: 9eef71e7aea8bbc45b6950ef6896ab59, type: 3}
+  m_Sprite: {fileID: 312332224, guid: 18821bbbff99a0243992bd0af7ee49e1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10403,13 +10404,34 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1046610481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.29, y: -0.31, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.1695, y: -0.1976, z: 0}
+  m_LocalScale: {x: 0.8662, y: 0.8612, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1046610485
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046610481}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 745298c9d25f1e9459b258a4aa1dced5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1241147199
 GameObject:
   m_ObjectHideFlags: 0
