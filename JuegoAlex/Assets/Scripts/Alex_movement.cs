@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Alex_movement : MonoBehaviour
 {
@@ -128,7 +129,8 @@ public class Alex_movement : MonoBehaviour
     private void GenerateEnemies(){
         int num = Next(0,100);
 
-        if(enemiesGenerated > 0 && Time.time > LastGenerate + 3.0f ){
+        if (SceneManager.GetActiveScene().name != "BossScene"){
+            if(enemiesGenerated > 0 && Time.time > LastGenerate + 3.0f ){
 
             if(num < 20){
                 Instantiate(GruntPrefab, new Vector3(1.015f,-2.598f,0), Quaternion.identity);
@@ -150,14 +152,15 @@ public class Alex_movement : MonoBehaviour
                  Instantiate(GruntPrefab, new Vector3(24.765f,-2.598f,0), Quaternion.identity);
                  enemiesGenerated -= 1;
             }
-        LastGenerate = Time.time;
-        }
-       else if(enemiesGenerated == 0 && leftEnemies == 0 && Time.time > LastGenerate + 5.0f){
+            LastGenerate = Time.time;
+            }
+            else if(enemiesGenerated == 0 && leftEnemies == 0 && Time.time > LastGenerate + 5.0f){
             //Acabar juego por matar enemigos
 
             MuerteJugador?.Invoke(this, EventArgs.Empty);
             Debug.Log("Juego terminado");
-       }
+            }
+        }
 
     }
 

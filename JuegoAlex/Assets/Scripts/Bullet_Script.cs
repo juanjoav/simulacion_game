@@ -34,10 +34,17 @@ public class Bullet_Script : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision){
         //Alex_movement alex = collision.GetComponent<Alex_movement>();
         Grunt_Script grunt = collision.GetComponent<Grunt_Script>();
+        Boss boss = collision.GetComponent<Boss>();
+
         if (grunt != null)
         {
             grunt.Hit();
         }
+        else if (boss != null)
+        {
+            boss.TakeDamage(); // Llamar al método TakeDamage del jefe
+        }
+
         DestroyBullet();
     }
     
