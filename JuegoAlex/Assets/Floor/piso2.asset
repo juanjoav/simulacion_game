@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: piso2
   m_EditorClassIdentifier: 
   m_Sprite: {fileID: 1352210047, guid: a7a5656c338ef5d41b09ef41e1de1e38, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_Transform:
     e00: 1
     e01: 0
